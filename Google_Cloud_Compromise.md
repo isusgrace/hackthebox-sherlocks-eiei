@@ -22,17 +22,25 @@ Yes, I can speak Thai.
         "location": "us"
       }
 ```
+สังเกตตรง project_id คำตอบจะอยู่ตรงนั้น
 ### คำตอบ cryptostartup
 
 ## คำถามที่ 2 What google cloud identity is compromised? (Task 1)
-```
 
 ```
+      "authenticationInfo": {
+        "principalEmail": "cloud-storage-helper@cryptostartup.iam.gserviceaccount.com",
+        "serviceAccountKeyName": "//iam.googleapis.com/projects/cryptostartup/serviceAccounts/cloud-storage-helper@cryptostartup.iam.gserviceaccount.com/keys/65a191ac98d4437057ff564b0093b88355e1a478"
+      }
+```
+สังเกตตรง principalEmail คำตอบจะอยู่ตรงนั้น
+### คำตอบ cloud-storage-helper@cryptostartup.iam.gserviceaccount.com
 
 ## คำถามที่ 3 What IP address is the identity authenticated from? (Task 2)
 ```
 
 ```
+### คำตอบ 178.132.108.38
 
 ## คำถามที่ 4 What country does the IP originate from? (Task 3)
 
