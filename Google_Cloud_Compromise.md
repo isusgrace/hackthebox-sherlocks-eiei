@@ -146,7 +146,7 @@ curl -s http://ipinfo.io/178.132.108.38/json
     "resource": {
       "type": "audited_resource",
       "labels": {
-        =="method": "google.api.serviceusage.v1.ServiceUsage.EnableService"==,
+        <mark>"method": "google.api.serviceusage.v1.ServiceUsage.EnableService"<mark>,
         "project_id": "cryptostartup",
         "service": "serviceusage.googleapis.com"
       }
